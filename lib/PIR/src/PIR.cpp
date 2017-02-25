@@ -5,7 +5,7 @@ struct sensor {
 	char* name;
 	int pin;
 	void (*callback)(char*, int);
-	unsigned long lastCalbackCall;
+	unsigned long lastCallbackCall;
 	sensor* next;
 };
 
@@ -24,8 +24,8 @@ PIR::PIR(unsigned long interval) {
 void PIR::loop() {
 	sensor* cursor = head;
 	while (cursor!=NULL) {
-		if(digitalRead(cursor->pin) && (millis() - cursor->lastCalbackCall) > interval){
-			cursor->lastCalbackCall = millis();
+		if(digitalRead(cursor->pin) && (millis() - cursor->lastCallbackCall) > interval){
+			cursor->lastCallbackCall = millis();
 			cursor->callback(cursor->name, cursor->pin);
 		}
 		cursor = cursor->next;
