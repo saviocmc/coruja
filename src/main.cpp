@@ -4,8 +4,8 @@
 
 /* For each PIR sensor connected to the microcontroller, put the number of the pin
 connected in the array PIR_PINS and the respective identifier name in the array PIR_NAMES */
-const int PIR_PINS[] = 		{8,				9			};
-const char* PIR_NAMES[] = 	{"Back door",	"Garage"	};
+const int PIR_PINS[] = 		{8,9};
+const char* PIR_NAMES[] = 	{"Back door","Garage"};
 const int PIR_SIZE = sizeof(PIR_PINS)/sizeof(PIR_PINS[0]);
 int lastCall[PIR_SIZE];
 
