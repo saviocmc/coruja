@@ -1,7 +1,7 @@
 #include <Arduino.h>
 #include <PIR.h>
 
-PIR pir(2000);
+PIR pir;
 
 void onMotionDetected(char* identifier, int pin) {
 	Serial.print("Moviment on: ");
