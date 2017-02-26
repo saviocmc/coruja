@@ -15,6 +15,8 @@ const unsigned long interval = 2000;
 
 void setup(){
 	Serial.begin(9600);
+	for(int i = 0; i<PIR_SIZE; i++)
+		pinMode(PIR_PINS[i],INPUT);
 }
 
 void loop(){
