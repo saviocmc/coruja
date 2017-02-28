@@ -2,7 +2,7 @@
 ### Home Security
 This is an Arduino© (or compatible microcontroller) project that claims to get information (data) from sensors installed in a house and silently notify the owners. It was designed to work with infred motion sensors along with cameras and mics, providing the owners detailed info about what is goins on the house.
 
-The project uses [PlatformIO](http://platformio.org/) for library management.
+The project uses [PlatformIO](http://platformio.org/) for library management and for compiling/running the project.
 
 ### Main components
 #### [SIM800L](http://www.meshine-tech.com/SIM800L.html)
