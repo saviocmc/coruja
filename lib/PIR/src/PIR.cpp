@@ -34,7 +34,7 @@ void PIR::loop() {
 
 // Add a new sensor in the linked list.
 // In the end, the new sensor will be the head of the list.
-void PIR::add(char *name, int pin, void (*callback)(char* , int)) {
+void PIR::add(char* name, int pin, void (*callback)(char* , int)) {
 	pinMode(pin, INPUT);
 	sensor* new_sensor = (sensor*) malloc(sizeof(sensor));
 	new_sensor->name = name;
