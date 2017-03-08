@@ -16,7 +16,7 @@ The Pointer Laser, with a [Photoresistor](https://wikipedia.org/wiki/Photoresist
 Used for communication in places that don't have WiFi available or other easy internet access. This module only requires a micro SIM card and can act as a modem, providing internet access. It can also send SMS and make calls, wich can be useful for transmition of real time audio.
 
 ### Compiling
-* First [install Platformio](http://docs.platformio.org/en/latest/installation.html#installation-methods).
+* First install [Platformio Core](http://docs.platformio.org/en/latest/installation.html#installation-methods) or [Platformio IDE (Atom Editor)](http://docs.platformio.org/en/latest/ide/atom.html).
 * Connect the arduino or compatible microcontroller to the computer.
 * In a terminar, go to the project directory and type ``pio run -t upload``
 
