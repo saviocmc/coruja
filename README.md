@@ -20,4 +20,4 @@ Used for communication in places that don't have WiFi available or other easy in
 * Connect the arduino or compatible microcontroller to the computer.
 * In a terminal/shell, go to the project directory and type ``pio run -t upload``
 
-More information and options about compiling a Platformio project [here](http://docs.platformio.org/en/stable/userguide/cmd_run.html).
+More information and options about compiling a PlatformIO project [here](http://docs.platformio.org/en/stable/userguide/cmd_run.html).
